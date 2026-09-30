@@ -1,0 +1,15 @@
+| Purpose                   | Command                              |
+| ------------------------- | ------------------------------------ |
+| Enter privileged mode     | `enable`                             |
+| Enter configuration       | `configure terminal`                 |
+| Rename device             | `hostname SW1`                       |
+| Select interface          | `interface fa0/1`                    |
+| Set IP                    | `ip address IP MASK`                 |
+| Turn interface on         | `no shutdown`                        |
+| Leave current mode        | `exit`                               |
+| Return to privileged mode | `end`                                |
+| View configuration        | `show running-config`                |
+| View IP interfaces        | `show ip interface brief`            |
+| View VLANs                | `show vlan brief`                    |
+| Save configuration        | `copy running-config startup-config` |
+| Test connectivity         | `ping IP-address`                    |
